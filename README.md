@@ -1,7 +1,7 @@
 # Css_Selectors
 ## Universal and element selectors/ Evrensel ve eleman seçiciler
 - Bir HTML dosyasına CSS ile stil verirken, seçiciler kullanılır. Döküman içinden seçtiğimiz herhangi bir öğeye bu şekilde yeni özellik ataması yapılır. Selector olarak kullanabileceğimiz pek çok seçenek vardır. (birazdan göreceğiz ama önce selector kullanımından bahsedelim)
-```
+```css
 selector {
          property:value;
          }
@@ -12,7 +12,7 @@ selector {
 ---
 ### Selector çeşitleri
 __1. Universal Selector (*) :__ Evrensel seçici olarak bilinir. Yani döküman üzerindeki __her şeyi__ seçer ve hepsine ortak bir özellik ekler. Çok mantıklı bir kullanım değildir. Özellikle çok büyük dökümanlarda sıkıntı yaratabilir.
-```
+```css
 * {
    color:black;
    background-color: cyan;
@@ -23,7 +23,7 @@ __1. Universal Selector (*) :__ Evrensel seçici olarak bilinir. Yani döküman 
 * __background-color:__ Her şeyin arka plan rengini cam yeşili yapar.
 
 __2. Element Selector :__ Belli bir türdeki her şeyi seçer ve istenilen özelliği atar.
-```
+```css
 button {
        font-size:30px;
        }
@@ -32,7 +32,7 @@ button {
 * __font-size:__ Tüm butonların boyutunu 30px yapar.
 
 __3. Selector List :__ Birden fazla seçiciyi virgül yardımıyla kullanabilmeye yarar. 
-```
+```css
 h1,h2 {
        font-weight:bold;
        }
