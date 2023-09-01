@@ -1,4 +1,4 @@
-# Css_Selectors
+# css-selectors
 ## Universal and element selectors/ Evrensel ve eleman seçiciler
 - Bir HTML dosyasına CSS ile stil verirken, seçiciler kullanılır. Döküman içinden seçtiğimiz herhangi bir öğeye bu şekilde yeni özellik ataması yapılır. Selector olarak kullanabileceğimiz pek çok seçenek vardır. (birazdan göreceğiz ama önce selector kullanımından bahsedelim)
 ```css
